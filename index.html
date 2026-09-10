@@ -1187,52 +1187,17 @@
         <p>Get a free AI automation audit for your business. Fill out the form and we'll get back to you within 24 hours.</p>
       </div>
       <form class="audit-form" id="auditForm" action="https://formspree.io/f/mdeoyjgz" method="POST">
-        <div class="form-row">
-          <div class="field">
-            <label for="fullName">Full Name</label>
-            <input type="text" id="fullName" name="fullName" required>
-          </div>
-          <div class="field">
-            <label for="businessName">Business Name</label>
-            <input type="text" id="businessName" name="businessName" required>
-          </div>
-        </div>
-        <div class="form-row">
-          <div class="field">
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" required>
-          </div>
-          <div class="field">
-            <label for="phone">Phone</label>
-            <input type="tel" id="phone" name="phone" required>
-          </div>
-        </div>
-        <div class="form-row">
-          <div class="field">
-            <label for="website">Website</label>
-            <input type="url" id="website" name="website" placeholder="https://">
-          </div>
-          <div class="field">
-            <label for="industry">Industry</label>
-            <select id="industry" name="industry">
-              <option>Dental Clinic</option>
-              <option>Med Spa</option>
-              <option>Real Estate Agency</option>
-              <option>Law Firm</option>
-              <option>Home Service Business</option>
-              <option>Chiropractor</option>
-              <option>Salon</option>
-              <option>Other Local Business</option>
-            </select>
-          </div>
-        </div>
-        <div class="field">
-          <label for="automate">What would you like to automate?</label>
-          <textarea id="automate" name="automate" rows="4"></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary btn-block">Get My Free AI Audit</button>
-        <p class="form-note">We'll review your business and respond within 24 hours. No spam, ever.</p>
-      </form>
+  <!-- Existing form fields -->
+  
+  <!-- Thank You redirect -->
+  <input type="hidden" name="_next" value="https://ai-growth.agency/thank-you.html">
+  
+  <!-- Spam protection (recommended) -->
+  <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+  
+  <button type="submit" class="btn btn-primary btn-block">Get My Free AI Audit</button>
+  <p class="form-note">We'll review your business and respond within 24 hours. No spam, ever.</p>
+</form>
     </div>
   </div>
 </section>

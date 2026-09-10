@@ -1186,64 +1186,54 @@
         <h2>Find Out What You Could Automate</h2>
         <p>Get a free AI automation audit for your business. Fill out the form and we'll get back to you within 24 hours.</p>
       </div>
-      <div class="audit-form" style="background:transparent;padding:0;border:0;overflow:hidden;">
-        <iframe 
-          src="https://docs.google.com/forms/d/e/1FAIpQLSccLzMhuS2n3M-DvFpLdhmIGVLBWH7_cAU3dbhYHgtKLGIovQ/viewform?embedded=true" 
-          width="100%" 
-          height="900" 
-          frameborder="0" 
-          marginheight="0" 
-          marginwidth="0"
-          style="border-radius:16px;background:#fff;display:block;">
-          Loading…
-        </iframe>
-      </div>
+      <form class="audit-form" id="auditForm" action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST">
+        <div class="form-row">
+          <div class="field">
+            <label for="fullName">Full Name</label>
+            <input type="text" id="fullName" name="fullName" required>
+          </div>
+          <div class="field">
+            <label for="businessName">Business Name</label>
+            <input type="text" id="businessName" name="businessName" required>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="field">
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone" required>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="field">
+            <label for="website">Website</label>
+            <input type="url" id="website" name="website" placeholder="https://">
+          </div>
+          <div class="field">
+            <label for="industry">Industry</label>
+            <select id="industry" name="industry">
+              <option>Dental Clinic</option>
+              <option>Med Spa</option>
+              <option>Real Estate Agency</option>
+              <option>Law Firm</option>
+              <option>Home Service Business</option>
+              <option>Other Local Business</option>
+            </select>
+          </div>
+        </div>
+        <div class="field">
+          <label for="automate">What would you like to automate?</label>
+          <textarea id="automate" name="automate" rows="4"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Get My Free AI Audit</button>
+        <p class="form-note">We'll review your business and respond within 24 hours. No spam, ever.</p>
+      </form>
     </div>
   </div>
 </section>
-<!-- ================= FAQ ================= -->
-<section class="section" id="faq" style="background:var(--navy-900);">
-  <div class="section-inner">
-    <div class="section-head center">
-      <h2>Frequently Asked Questions</h2>
-    </div>
-    <div class="faq-list" id="faqList">
-      <div class="faq-item">
-        <button class="faq-q" aria-expanded="false">What is an AI Receptionist?<span class="plus"></span></button>
-        <div class="faq-a"><div class="faq-a-inner">An AI Receptionist is a virtual assistant that greets website visitors, answers common questions and helps them take the next step, at any hour of the day.</div></div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-q" aria-expanded="false">How can AI help my dental clinic?<span class="plus"></span></button>
-        <div class="faq-a"><div class="faq-a-inner">AI can answer common front-desk questions, capture new patient inquiries and help patients request appointments, so your team can focus on in-office care.</div></div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-q" aria-expanded="false">Can AI capture leads from my website?<span class="plus"></span></button>
-        <div class="faq-a"><div class="faq-a-inner">Yes. The AI system can collect visitor details and organize them so your team has everything it needs to follow up.</div></div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-q" aria-expanded="false">Can AI help with appointment requests?<span class="plus"></span></button>
-        <div class="faq-a"><div class="faq-a-inner">Yes. Visitors can share their preferred day and time, and that request is passed along to your team to confirm.</div></div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-q" aria-expanded="false">Does the AI replace my staff?<span class="plus"></span></button>
-        <div class="faq-a"><div class="faq-a-inner">No. The AI handles repetitive front-line conversations so your staff can spend more time with customers and patients directly.</div></div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-q" aria-expanded="false">Can you connect AI with my CRM?<span class="plus"></span></button>
-        <div class="faq-a"><div class="faq-a-inner">Yes, depending on your plan, we can connect lead and appointment data to the CRM or tools your team already uses.</div></div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-q" aria-expanded="false">How long does setup take?<span class="plus"></span></button>
-        <div class="faq-a"><div class="faq-a-inner">Setup timelines vary by plan and business needs. We'll walk you through an estimated timeline during your free audit.</div></div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-q" aria-expanded="false">Do you offer custom automation?<span class="plus"></span></button>
-        <div class="faq-a"><div class="faq-a-inner">Yes. If your business has specific workflows in mind, we can scope a custom automation package for you.</div></div>
-      </div>
-    </div>
-  </div>
-</section>
-
 <!-- ================= FINAL CTA ================= -->
 <section class="section final-cta">
   <div class="section-inner">

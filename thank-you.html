@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thank You – AI Growth Agency</title>
+<meta name="description" content="Thank you for requesting your free AI automation audit. We'll respond within 24 hours.">
+<meta name="robots" content="noindex, nofollow">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap');
+
+  :root{
+    --navy-950:#050810;
+    --navy-900:#0a0f1e;
+    --navy-800:#111a30;
+    --line:rgba(255,255,255,0.09);
+    --ink-70:rgba(255,255,255,0.72);
+    --ink-50:rgba(255,255,255,0.52);
+    --blue:#3b82f6;
+    --blue-light:#60a5fa;
+    --purple:#8b5cf6;
+    --grad: linear-gradient(115deg, var(--blue) 0%, var(--purple) 100%);
+  }
+
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html{scroll-behavior:smooth;}
+  body{
+    background:var(--navy-950);
+    color:var(--ink-70);
+    font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
+    font-size:16px;
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:40px 24px;
+    background:
+      radial-gradient(circle at 20% 0%, rgba(139,92,246,0.25), transparent 45%),
+      radial-gradient(circle at 85% 20%, rgba(59,130,246,0.22), transparent 50%),
+      var(--navy-950);
+  }
+
+  h1,h2,h3{
+    font-family:'Space Grotesk','Inter',sans-serif;
+    font-weight:600;
+    color:#fff;
+    letter-spacing:-0.01em;
+    line-height:1.15;
+  }
+
+  .wrap{
+    max-width:720px;
+    width:100%;
+    text-align:center;
+  }
+
+  .brand{
+    display:inline-flex;
+    align-items:center;
+    gap:10px;
+    font-family:'Space Grotesk',sans-serif;
+    font-weight:700;
+    font-size:18px;
+    color:#fff;
+    text-decoration:none;
+    margin-bottom:48px;
+  }
+  .brand-mark{
+    width:32px;height:32px;border-radius:9px;
+    background:var(--grad);
+    display:flex;align-items:center;justify-content:center;
+    flex-shrink:0;
+  }
+  .brand-mark svg{width:18px;height:18px;}
+
+  .success-icon{
+    width:96px;height:96px;
+    border-radius:50%;
+    background:rgba(52,211,153,0.12);
+    border:1px solid rgba(52,211,153,0.3);
+    display:flex;align-items:center;justify-content:center;
+    margin:0 auto 32px;
+    animation:popIn 0.5s cubic-bezier(0.34,1.56,0.64,1);
+  }
+  .success-icon svg{
+    width:44px;height:44px;
+    color:#34d399;
+  }
+  @keyframes popIn{
+    0%{transform:scale(0);opacity:0;}
+    100%{transform:scale(1);opacity:1;}
+  }
+
+  h1{
+    font-size:clamp(30px,4.5vw,44px);
+    margin-bottom:18px;
+  }
+  h1 .grad-word{
+    background:var(--grad);
+    -webkit-background-clip:text;
+    background-clip:text;
+    color:transparent;
+  }
+
+  .lead{
+    font-size:17px;
+    color:var(--ink-70);
+    max-width:520px;
+    margin:0 auto 48px;
+  }
+
+  .steps-card{
+    background:linear-gradient(180deg, var(--navy-800), var(--navy-900));
+    border:1px solid var(--line);
+    border-radius:20px;
+    padding:36px 32px;
+    text-align:left;
+    margin-bottom:32px;
+    box-shadow:0 30px 70px rgba(0,0,0,0.5);
+  }
+
+  .steps-title{
+    font-size:14px;
+    font-weight:600;
+    color:var(--blue-light);
+    text-transform:uppercase;
+    letter-spacing:0.08em;
+    margin-bottom:24px;
+    text-align:center;
+  }
+
+  .step{
+    display:flex;
+    gap:16px;
+    align-items:flex-start;
+    padding:14px 0;
+    border-bottom:1px solid var(--line);
+  }
+  .step:last-child{border-bottom:none;padding-bottom:0;}
+
+  .step-num{
+    width:32px;height:32px;
+    border-radius:50%;
+    background:rgba(59,130,246,0.15);
+    color:var(--blue-light);
+    font-family:'Space Grotesk',sans-serif;
+    font-weight:600;
+    font-size:14px;
+    display:flex;align-items:center;justify-content:center;
+    flex-shrink:0;
+    margin-top:2px;
+  }
+
+  .step-text strong{
+    display:block;
+    color:#fff;
+    font-size:15.5px;
+    font-weight:600;
+    margin-bottom:4px;
+  }
+  .step-text span{
+    font-size:14px;
+    color:var(--ink-50);
+  }
+
+  .cta-row{
+    display:flex;
+    gap:14px;
+    justify-content:center;
+    flex-wrap:wrap;
+    margin-bottom:32px;
+  }
+
+  .btn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    gap:8px;
+    padding:14px 28px;
+    border-radius:999px;
+    font-weight:600;
+    font-size:15px;
+    text-decoration:none;
+    transition:transform .18s ease, box-shadow .18s ease, background .18s ease;
+    white-space:nowrap;
+  }
+  .btn-primary{
+    background:var(--grad);
+    color:#fff;
+    box-shadow:0 8px 24px rgba(99,102,241,0.35);
+  }
+  .btn-primary:hover{
+    transform:translateY(-2px);
+    box-shadow:0 12px 30px rgba(99,102,241,0.5);
+  }
+  .btn-ghost{
+    background:rgba(255,255,255,0.04);
+    color:#fff;
+    border:1px solid var(--line);
+  }
+  .btn-ghost:hover{
+    background:rgba(255,255,255,0.09);
+    border-color:rgba(255,255,255,0.2);
+  }
+
+  .contact-line{
+    font-size:14px;
+    color:var(--ink-50);
+  }
+  .contact-line a{
+    color:var(--blue-light);
+    text-decoration:none;
+    font-weight:600;
+  }
+  .contact-line a:hover{text-decoration:underline;}
+
+  @media (max-width:560px){
+    .steps-card{padding:28px 22px;}
+    .success-icon{width:80px;height:80px;}
+    .success-icon svg{width:36px;height:36px;}
+    .cta-row{flex-direction:column;align-items:stretch;}
+    .btn{width:100%;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <a href="/" class="brand">
+    <span class="brand-mark">
+      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 2L14.5 9.5L22 12L14.5 14.5L12 22L9.5 14.5L2 12L9.5 9.5L12 2Z" fill="white"/></svg>
+    </span>
+    AI Growth Agency
+  </a>
+
+  <div class="success-icon">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M5 13l4 4L19 7"/>
+    </svg>
+  </div>
+
+  <h1>Thank You! <br>Your <span class="grad-word">Free AI Audit</span> Is On The Way</h1>
+
+  <p class="lead">We've received your request. Our team will review your business and get back to you within 24 hours with a personalized AI automation audit.</p>
+
+  <div class="steps-card">
+    <div class="steps-title">What Happens Next</div>
+
+    <div class="step">
+      <div class="step-num">1</div>
+      <div class="step-text">
+        <strong>We Review Your Business</strong>
+        <span>Our team analyzes your website, lead capture, and follow-up process.</span>
+      </div>
+    </div>
+
+    <div class="step">
+      <div class="step-num">2</div>
+      <div class="step-text">
+        <strong>We Identify Opportunities</strong>
+        <span>We find where AI can help you capture more leads and save time.</span>
+      </div>
+    </div>
+
+    <div class="step">
+      <div class="step-num">3</div>
+      <div class="step-text">
+        <strong>We Send Your Personalized Audit</strong>
+        <span>Within 24 hours, you'll receive a custom report in your inbox.</span>
+      </div>
+    </div>
+
+    <div class="step">
+      <div class="step-num">4</div>
+      <div class="step-text">
+        <strong>Optional: Free Demo Call</strong>
+        <span>If you're interested, we'll schedule a quick 15-minute walkthrough.</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="cta-row">
+    <a href="/" class="btn btn-primary">Back to Home</a>
+    <a href="/#demo" class="btn btn-ghost">Try AI Demo</a>
+  </div>
+
+  <p class="contact-line">
+    Have a question in the meantime? Email us at
+    <a href="mailto:info@ai-growth.agency">info@ai-growth.agency</a>
+  </p>
+
+</div>
+</body>
+</html>

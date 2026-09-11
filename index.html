@@ -1186,17 +1186,23 @@
         <h2>Find Out What You Could Automate</h2>
         <p>Get a free AI automation audit for your business. Fill out the form and we'll get back to you within 24 hours.</p>
       </div>
-      <form class="audit-form" id="auditForm" action="https://formspree.io/f/mdeoyjgz" method="POST">
+      <form class="audit-form" id="auditForm" action="https://api.web3forms.com/submit" method="POST">
+
+  <!-- Web3Forms Access Key -->
+  <input type="hidden" name="access_key" value="7b82351f-3032-43af-8cc8-9a5df80a6453">
+
+  <!-- Custom Redirect URL -->
+  <input type="hidden" name="redirect" value="https://ai-growth.agency/thank-you.html">
 
   <!-- Full Name + Business Name -->
   <div class="form-row">
     <div class="field">
       <label for="fullName">Full Name</label>
-      <input type="text" id="fullName" name="fullName" required>
+      <input type="text" id="fullName" name="Full Name" required>
     </div>
     <div class="field">
       <label for="businessName">Business Name</label>
-      <input type="text" id="businessName" name="businessName" required>
+      <input type="text" id="businessName" name="Business Name" required>
     </div>
   </div>
 
@@ -1204,11 +1210,11 @@
   <div class="form-row">
     <div class="field">
       <label for="email">Email</label>
-      <input type="email" id="email" name="email" required>
+      <input type="email" id="email" name="Email" required>
     </div>
     <div class="field">
       <label for="phone">Phone</label>
-      <input type="tel" id="phone" name="phone" required>
+      <input type="tel" id="phone" name="Phone" required>
     </div>
   </div>
 
@@ -1216,11 +1222,11 @@
   <div class="form-row">
     <div class="field">
       <label for="website">Website</label>
-      <input type="url" id="website" name="website" placeholder="https://">
+      <input type="url" id="website" name="Website" placeholder="https://">
     </div>
     <div class="field">
       <label for="industry">Industry</label>
-      <select id="industry" name="industry">
+      <select id="industry" name="Industry">
         <option>Dental Clinic</option>
         <option>Med Spa</option>
         <option>Real Estate Agency</option>
@@ -1236,22 +1242,15 @@
   <!-- Automation Goal -->
   <div class="field">
     <label for="automate">What would you like to automate?</label>
-    <textarea id="automate" name="automate" rows="4"></textarea>
+    <textarea id="automate" name="Automation Goal" rows="4"></textarea>
   </div>
 
-  <!-- Thank You Page Redirect (Formspree) -->
-  <input type="hidden" name="_next" value="https://ai-growth.agency/thank-you.html">
-
-  <!-- Email Subject Line (Formspree) -->
-  <input type="hidden" name="_subject" value="New Free AI Audit Request from AI Growth Agency">
-
-  <!-- Honeypot Spam Protection (Formspree) -->
-  <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+  <!-- Spam Protection (Web3Forms Honeypot) -->
+  <input type="checkbox" name="botcheck" class="hidden" style="display:none;">
 
   <!-- Submit Button -->
   <button type="submit" class="btn btn-primary btn-block">Get My Free AI Audit</button>
 
-  <!-- Trust Note -->
   <p class="form-note">We'll review your business and respond within 24 hours. No spam, ever.</p>
 
 </form>
